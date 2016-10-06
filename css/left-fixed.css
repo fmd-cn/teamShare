@@ -1,0 +1,71 @@
+			/*引用前把body属性注释掉*/
+			body{
+				width: 100%;
+				height: 2000px;
+			}
+			
+			a{ 
+				color: #333;
+				text-decoration: none;
+				
+			}
+			.fix_box{
+				position: relative;
+				left: 0;
+				top: 0px;
+			}
+			.fix_con{
+				font-family: "微软雅黑";
+				position: absolute;
+				left: 0;
+				top: 100px;
+				z-index: 999;
+				width: 70px;
+			}
+			.fix_box a{
+				width: 70px;
+				height: 65px;
+				border: 1px solid #e3e3e3;
+				font-size: 14px;
+				display: block;
+				text-align: center;
+				line-height: 100px;
+				border-top:none ;
+			}
+			.fix_box .tel{
+				position: absolute;
+				width: 0px;
+				height: 65px;
+				background: #F1801B;
+				left: 71px;
+				top: 396px;
+				line-height: 67px;
+				color: #fff;
+				font-size: 16px;
+				font-weight: bold;
+				}
+			.fix_box .f_a1{
+				background:#F1801B url(../img/b_f_ico.png) no-repeat 20px 15px ;
+				color: #FFFFFF;
+			}
+			.fix_box .f_a2{
+				background:#fff url(../img/b_f_ico.png) no-repeat 20px -50px ;
+			}
+			.fix_box .f_a3{
+				background:#fff url(../img/b_f_ico.png) no-repeat 20px -110px ;
+			}
+			.fix_box .f_a4{
+				background:#fff url(../img/b_f_ico.png) no-repeat 20px -170px ;
+			}
+			.fix_box .f_a5{
+				background:#fff url(../img/b_f_ico.png) no-repeat 20px -230px ;
+			}
+			.fix_box .f_a6{
+				background:#fff url(../img/b_f_ico.png) no-repeat 20px -370px ;
+			}
+			.fix_box .f_a7{
+				background:#fff url(../img/b_f_ico.png) no-repeat 20px -290px ;
+			}
+			.fix_box .r-top{
+				display: none;
+			}

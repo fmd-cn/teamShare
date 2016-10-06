@@ -1,0 +1,145 @@
+@charset "utf-8";
+html,body,div,span,input,p,strong,ul,li{margin:0px;padding:0px;}
+li{
+    list-style: none;
+}
+#chatRoom{
+    display:none;width:0px;height:0px;border:solid 1px #3b80db;border-top-right-radius: 2%;border-top-left-radius: 2%;z-index: 900;position: fixed;bottom:0px;right:0px;
+    .chatRoom_top{
+        width:389px;height:21px;background-image: url(../img/header_bg_1.png);cursor: all-scroll;padding:7px;
+        .title{
+            width:330px;height:20px;float:left;background: url(../img/minchat_ns_1.png) no-repeat -78px 0px;color:#fff;text-indent: 30px;
+        }
+        .del,.max,.min{
+            width:12px;height:12px;float:right;margin-left: 5px;cursor: pointer;
+        }
+        .del{
+            background:url(../img/minchat_ns_1.png) no-repeat -18px 0px;
+        }
+        .max{
+            background: url(../img/maxto.gif) no-repeat center;
+        }
+        .min{
+            background: url(../img/min.png) no-repeat center;
+        }
+    }
+    .chat-title{
+        width:403px;height:28px;border-bottom: solid 1px #3b80db;background: #fff;
+        .chat-title-left{
+            float:left;font-size: 12px;line-height: 28px;margin-left: 10px;
+        }
+        .chat-title-right{
+            float:right;margin:1px 5px 0 0;
+            input{
+                width:68px;height:25px;background: #f5fafe;padding:1px 6px;border: none;border-radius: 10%;background: url(../img/close_btns.gif) no-repeat center;cursor: pointer;outline: none;
+            }
+        }
+    }
+    .chat-content{
+        width:398px;height:202px;background: url(../img/theme_bg1.png) no-repeat center;padding:5px 0 0 5px;overflow: hidden;overflow-y: scroll;
+        .banner-text{
+            width:376px;height:122px;margin-bottom: 15px;font-size: 12px;line-height: 15px;
+        }
+        .chat-word{
+            width:296px;height:127px;padding:5px 10px;font-size: 13px;background: #F1F8F9;line-height: 20px;margin-top: 10px;margin-bottom: 20px;
+        }
+        .chat-me{
+            width:300px;height:auto;float: right;
+            .chat-time-me{
+                display: block;text-align: right;margin-right: 5px;width: 100%;height:auto;
+            }
+            .chat-word-me{
+                width:auto;float:right;background:dodgerblue;line-height: 20px;margin-top: 10px;margin-bottom: 20px;padding:5px 10px;font-size: 13px;line-height: 20px;margin-right: 5px;
+            }
+        }
+    }
+    .menu-btn{
+        width:399px;height:25px;background: url(../img/minchat_ns_1.png) 0 -68px repeat-x;padding-left:4px;position: relative;
+        div{
+            width:24px;height:25px;margin-right: 5px;float: left;cursor: pointer;
+        }
+        .smile{
+            background: url(../img/xin_par_bg.png) no-repeat 0px 0px;
+        }
+        .link{
+            background: url(../img/xin_par_bg.png) no-repeat -24px 0px;
+        }
+        .pic{
+            background: url(../img/xin_par_bg.png) no-repeat -48px 0px;
+        }
+        .cutpic{
+            background: url(../img/xin_par_bg.png) no-repeat -72px 0px;
+        }
+        .sendfile{
+            background: url(../img/xin_par_bg.png) no-repeat -96px 0px;
+        }
+        .grade{
+            background: url(../img/xin_par_bg.png) no-repeat -120px 0px;
+        }
+        .sava{
+            background: url(../img/xin_par_bg.png) no-repeat -144px 0px;
+        }
+        .que{
+            background: url(../img/xin_par_bg.png) no-repeat -168px 0px;
+        }
+        .complain{
+            text-decoration: none;float: right;font-size: 13px;line-height:30px;margin-right: 5px;
+            &:hover{
+                text-decoration: underline;color:red;
+            }
+        }
+        .smileList{
+            width:294px;height:204px;padding:4px;border: solid 1px #000;margin:0;position: absolute;bottom:30px;left:5px;background: #fff;display: none;
+            ul{
+                li{
+                    float: left;border: solid 1px #ccc;width:40px;height:40px;text-align: center;padding-top: 5px;
+                }
+            }
+        }
+    }
+    .input-box{
+        width:393px;height:72px;padding:5px;position: relative;background: #fff;
+        .input-text{
+            width:265px;height:61px;padding:2px;border: none;
+        }
+        .sendBtn-box{
+            float: right;margin-top: 19px;width:82px;height:36px;
+            input{
+                width:56px;height:36px;background: url(../img/minchat_ns_1.png) no-repeat -8px -25px;border: none;text-align: left;text-indent: 16px;cursor: pointer;outline:none;float: left;
+            }
+            .sendBtn{
+                width:26px;height:36px;background: url(../img/minchat_ns_1.png) no-repeat -64px -25px;float: left;cursor: pointer;
+            }
+        }
+        .sendStyle{
+            width:137px;height:48px;border:solid 1px #000;background: #fff;position: absolute;top:30px;right:20px;display: none;
+            p{
+                font-size: 12px;height:22px;line-height: 22px;border:solid 1px #fff;cursor:pointer;
+                &:hover{
+                    border:solid 1px #000;background:#ccc;
+                }
+            }
+            img{
+                vertical-align: middle;
+            }
+        }
+    }
+}
+#chatRoom_min{
+    display:none;width:189px;height:22px;background: url(../img/header_bg_1.png) no-repeat;cursor: all-scroll;padding:7px;position: fixed;bottom: 0;right: 0;
+    .title{
+        width:130px;height:20px;float:left;background: url(../img/minchat_ns_1.png) no-repeat -78px 0px;color:#fff;text-indent: 30px;
+    }
+    .del,.max,.min-max{
+        width:12px;height:12px;float:right;margin-left: 5px;cursor: pointer;
+    }
+    .del{
+        background:url(../img/minchat_ns_1.png) no-repeat -18px 0px;
+    }
+    .max{
+        background: url(../img/maxto.gif) no-repeat center;
+    }
+    .min-max{
+        background: url(../img/max.png) no-repeat center;
+    }
+}

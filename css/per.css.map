@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAK,CACD,MAAM,CAAE,cAAc,CACtB,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,MAAM,CAAE,MAAM,CACd,SAAG,CACC,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI",
+"sources": ["../sass/per.scss"],
+"names": [],
+"file": "per.css"
+}

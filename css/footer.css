@@ -1,0 +1,128 @@
+body,div,dl,dt,dd,ul,li,ol,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+img{
+	vertical-align: top;
+}
+li{
+	list-style: none;
+}
+.m-foot{
+	width: 100%;
+	background-color: #276dc3;
+	overflow: hidden;
+}
+.m-foot .footBsae{
+	width: 1160px;
+	margin: 0 auto;
+	padding-bottom: 50px;	
+}
+.clear:after{
+	clear: both;
+	content: '';
+	display: block;
+}
+.m-foot .footBsae .footLeft{
+	float: left;
+	width: 890px;
+}
+.m-foot .footBsae .footLeft .ft-hd{
+	width: 100%;
+}
+.m-foot .footBsae .footLeft .ft-hd .ft-hd-cont{
+	color: #FFFFFF;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 100;
+	height: 95px;
+	line-height: 95px;
+	margin-right: 16px;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 62px;
+}
+.m-foot .footBsae .footLeft .ft-hd .active{
+	background: rgba(0,0,0,0) url(../img/indexImg/bottom_part2.png) no-repeat scroll center top; 
+	
+}
+.m-foot .footBsae .footLeft .ft-hd .ft-hd-last{
+	margin: 0;
+}
+.m-foot .footLeft .ft-bd{
+	padding: 1% 0 0;
+	width: 100%;
+	overflow: hidden;
+	
+}
+.m-foot .footLeft .ft-bd ul{
+	overflow: hidden;
+	width: 100%;
+}
+.m-foot .footLeft .ft-bd li{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 100;
+	line-height: 200%;
+	text-align: left;
+	display: none;
+}
+.m-foot .footLeft .ft-bd li strong{
+	color: #edba11;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 56px;
+}
+.m-foot .footRight{
+	float: right;
+}
+.m-foot .footRight li{
+	float: left;
+	color: #fff;
+	font-size: 13px;
+	line-height: 18px;
+	padding-top: 33%;
+	text-align: center;
+}
+.m-foot .footRight .paddSty{
+	padding-right: 15px;
+}
+.m-foot .footRight li p{
+	padding-top: 5px;
+}
+.footPart2{
+	background-color: #143257;
+	box-sizing: border-box;
+	padding: 5px 0 11px;
+}
+.footPart2 .b-footPart2{
+	margin: 0 auto;
+	width: 1160px;
+	text-align: center;
+	color: #afafaf;
+	font-size: 13px;
+	line-height: 28px;
+}
+.footPart2 .b-footPart2 .b-footNav a{
+	color: #fff;
+	font-size: 13px;
+	padding: 4px;
+}
+.footPart2 .b-footPart2  p{
+	font-size: 12px;
+	line-height: 14px;
+}
+.footPart2 .b-footPart2  p a{
+	color: #AFAFAF;
+	padding: 0 2px;
+}
+.footPart2 .b-footPart2 .b-footNav a:hover{
+	color: #ffda0c;
+	text-decoration: underline;
+}
